@@ -20,5 +20,5 @@ Here is a brief explanation the directory structure of the repo.
 
 ```
  .
-..:  Copyright (c) 2020 Mikael Roos et al, mos@dbwebb.se
+..:  Copyright (c) 2020 Mikael Roos et al, mos@webbprogrammering.se
 ```
