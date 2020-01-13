@@ -14,7 +14,7 @@ Here is a brief explanation the directory structure of the repo.
 |----------------|------|
 | `docs/`        | Base for GitHub pages, a website for static pages.
 | `docs/slides/` | Slideshow for the course, [published on GitHub Pages](https://webbprogrammering.github.io/websoft/slides/).
-| `example/`     | Code samples, template code and working code examples.
+| `example/`     | Code samples, template code and code examples you can try out and review their source code.
 
 
 
