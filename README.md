@@ -10,15 +10,21 @@ Course material for "Software Development for the Web", nicked as "websoft".
 
 Here is a brief explanation the directory structure of the repo.
 
-| Directory | Info |
-|-----------|------|
-| `docs`    | Base for GitHub pages, a website for static pages.
-| `example` | Code samples, temnplate code and working code examples.
-| `me`      | Your own code that you produce during the course.
+| Directory      | Info |
+|----------------|------|
+| `docs/`        | Base for GitHub pages, a website for static pages.
+| `docs/slides/` | Slideshow for the course, [published on GitHub Pages](https://webbprogrammering.github.io/websoft/slides/).
+| `example/`     | Code samples, template code and working code examples.
+
+
+
+## Create your own working directory
+
+Once you have cloned this repo, start by creating your own directory `work` and save all your own work in that.
 
 
 
 ```
  .
-..:  Copyright (c) 2020 Mikael Roos et al, mos@webbprogrammering.se
+..:  Copyright (c) 2020 Mikael Roos, mos@webbprogrammering.se
 ```
