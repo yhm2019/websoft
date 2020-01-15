@@ -1,10 +1,20 @@
 # Slideshows for websoft
 
+You can show the slides on [GitHub pages for the websoft repo](https://webbprogrammering.github.io/websoft/slides).
+
+
+
+### User interface 
+
 Press `f` for fullscren, leave by `esc`.
 
 Navigate using arrow keys.
 
 Change style by pressing `1`, `2` or `3`.
+
+
+
+## Content
 
 Here are the slideshows.
 
