@@ -1,4 +1,0 @@
-mope
-
-
-index.md
