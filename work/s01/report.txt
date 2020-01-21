@@ -2,7 +2,7 @@ Q1: Did you before know about the techniques Git, GitHub, Markdown and/or GitHub
 A1:I known Git, GitHub and GitHub Pages. But I didn't know Markdown.
 
 Q2: Have you ever created websites before?
-A2: No.
+A2: Y
 
 Q3: Briefly explain your experience and knowledge of web application development.
 A3: Web application development creats application programs that use remote servers. Those applications are delivered to the user's computer, mobiles or else devices through the Internet. When users want to use web applications, they just need to access the Internet and use the browser to open the Web application rather than download it. 
