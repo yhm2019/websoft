@@ -2,11 +2,7 @@
 (function () {
     'use strict';
 
-    let url;
-
-    url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
-//    url = "data/1081.json";
-    fetch(url)
+  fetch('https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081')
         .then((response) => {
             return response.json();
         })
@@ -14,8 +10,7 @@
             console.log(myJson);
         });
 
-    url = "https://rem.dbwebb.se/api/users";
-    fetch(url)
+    fetch('https://rem.dbwebb.se/api/users')
         .then((response) => {
             return response.json();
         })
