@@ -25,4 +25,4 @@ document.getElemrntById("fetch").addEventListener("click",function () {
 //
 //    console.log('Sandbox is ready!');
 	document.getElementById("content").innerHTML;
-};
+})
