@@ -1,8 +1,11 @@
 // JavaScript Document
 (function () {
     'use strict';
-
-  fetch('https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081')
+ let url;
+	
+	//url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
+    url = "data/1081.json";
+    fetch(url)
         .then((response) => {
             return response.json();
         })
@@ -10,7 +13,9 @@
             console.log(myJson);
         });
 
-    fetch('https://rem.dbwebb.se/api/users')
+   
+	url = "https://rem.dbwebb.se/api/users";
+	fetch(url)
         .then((response) => {
             return response.json();
         })
