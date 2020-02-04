@@ -1,5 +1,5 @@
 // JavaScript Document
-function () {
+(function () {
     'use strict';
  let url;
 	
@@ -9,9 +9,9 @@ function () {
         .then((response) => {
             return response.json();
         })
-//        .then((myJson) => {
-//            console.log(myJson);
-//        });
+        .then((myJson) => {
+            console.log(myJson);
+        });
 
    
 //	url = "https://rem.dbwebb.se/api/users";
@@ -25,4 +25,5 @@ function () {
 //
 //    console.log('Sandbox is ready!');
 	document.getElementById("content").innerHTML;
-})
+})();
+//document.getElemrntById("fetch").addEventListener
