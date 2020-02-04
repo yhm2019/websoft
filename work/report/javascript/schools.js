@@ -11,7 +11,7 @@ document.getElemrntById("fetch").addEventListener("click",function () {
         })
 //        .then((myJson) => {
 //            console.log(myJson);
-        });
+//        });
 
    
 //	url = "https://rem.dbwebb.se/api/users";
