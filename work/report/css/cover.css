@@ -168,3 +168,14 @@ body {
     width: 700px;
   }
 }
+
+.rabbit{
+	width: 128px;
+	height: 125px;
+	border: 1px solid black;
+	background-image:url("../img/rabbit.jpg");
+		background-size: 64px;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
