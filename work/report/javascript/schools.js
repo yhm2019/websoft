@@ -1,5 +1,5 @@
 // JavaScript Document
-document.getElemrntById("fetch").addEventListener("click",function () {
+function () {
     'use strict';
  let url;
 	
