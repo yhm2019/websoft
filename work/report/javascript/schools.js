@@ -13,14 +13,20 @@
         })
         .then((myJson) => {
             console.log(myJson);
+            myJson.Skolenheter = myJson.Skolenheter.filter(function(a){
+                return a.Skolenhetskod === "11842600";
+            })
         });
+        element.innerHTML = JSON.stringify(myJson.Skolenheter);
+
     });
+
     console.log('Sandbox MEGA is ready!');
 })();
    
    
-//	url = "https://rem.dbwebb.se/api/users";
-//	fetch(url)
+//  url = "https://rem.dbwebb.se/api/users";
+//  fetch(url)
 //        .then((response) => {
 //            return response.json();
 //        })
@@ -29,6 +35,6 @@
 //        });
 //
 //    console.log('Sandbox is ready!');
-// 	document.getElementById("content").innerHTML;
+//  document.getElementById("content").innerHTML;
 // })();
 //document.getElemrntById("fetch").addEventListener
