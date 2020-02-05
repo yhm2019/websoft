@@ -5,7 +5,7 @@
     var element = document.getElementById("content");
     let url;
     // url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
-    url = "/data/1081.json";
+    url = "/websoft/work/report/data/1081.json";
     btn.addEventListener("click",function(){
          fetch(url)
         .then((response) => {
