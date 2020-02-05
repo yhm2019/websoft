@@ -13,12 +13,7 @@
         })
         .then((myJson) => {
             console.log(myJson);
-            myJson.skolenhets = myJson.Skolenhets.filter(function())
         });
-        myJson.Skolenhets = myJson.Skolenhets.filter(function(a){
-            return a.Skolenhets === "Hallabroskolan";
-        })
-        element.innerHTML = JSON.stringify(myJson.Skolenhets,0,4);
     console.log('Sandbox MEGA is ready!');
 })();
    
