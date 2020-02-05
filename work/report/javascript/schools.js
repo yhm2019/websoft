@@ -2,7 +2,7 @@
 'use strict';
 (function () {
     var btn = document.getElementById("fetch");
-    var element = document.getElementById("content");
+    var element = document.getElementById("data");
     let url;
     // url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
     url = "data/1081.json";
