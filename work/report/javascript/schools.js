@@ -1,21 +1,24 @@
 // JavaScript Document
 'use strict';
 (function () {
-    // var btn = document.getElementById("fetch");
-    // var element = document.getElementById("content");
+    var btn = document.getElementById("fetch");
+    var element = document.getElementById("content");
     let url;
-	var btn = document.getElementById("fetch");
     // url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
     url = "/data/1081.json";
-    // btn.addEventListener("click",function(){
+    btn.addEventListener("click",function(){
          fetch(url)
         .then((response) => {
             return response.json();
         })
         .then((myJson) => {
             console.log(myJson);
+            myJson.skolenhets = myJson.Skolenhets.filter(function())
         });
-
+        myJson.Skolenhets = myJson.Skolenhets.filter(function(a){
+            return a.Skolenhets === "Hallabroskolan";
+        })
+        element.innerHTML = JSON.stringify(myJson.Skolenhets,0,4);
     console.log('Sandbox MEGA is ready!');
 })();
    
