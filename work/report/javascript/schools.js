@@ -14,6 +14,7 @@
         .then((myJson) => {
             console.log(myJson);
         });
+    });
     console.log('Sandbox MEGA is ready!');
 })();
    
