@@ -3,7 +3,7 @@
     'use strict';
 
     let url;
-    var school;
+    var schools;
     var btn = document.getElementById("fetch");
     var element = document.getElementById("data")
     //url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
@@ -13,7 +13,7 @@
             return response.json();
         })
         .then((myJson) => {
-            school = myJson;
+            schools = myJson;
             console.log(myJson);
             console.log("1");
             });
