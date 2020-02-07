@@ -29,8 +29,7 @@
             return response.json();
         })
         .then((myJson) => {
-            var school = myJson.Skolenheter.filter(mySchool);
-            data.innerHTML = JSON.stringify(school, null, 4);
+            data.innerHTML = JSON.stringify(myJson, null, 4);
             });
     } else if(select.selectedIndex === "1") {
         fetch("data/1082.json")
@@ -38,8 +37,7 @@
             return response.json();
         })
         .then((myJson) => {
-            var school = myJson.Skolenheter.filter(mySchool);
-            data2.innerHTML = JSON.stringify(school, null, 4);
+            data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
     } else if(select.selectedIndex === "2"){
         fetch("data/1083.json")
@@ -47,8 +45,7 @@
             return response.json();
         })
         .then((myJson) => {
-            var school = myJson.Skolenheter.filter(mySchool);
-            data2.innerHTML = JSON.stringify(school, null, 4);
+            data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
     }
     console.log('Sandbox is ready!');
