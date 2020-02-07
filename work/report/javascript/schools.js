@@ -17,7 +17,7 @@
             return response.json();
         })
         .then((myJson) => {
-            var school = myJson.filter(mySchool);
+            var school = myJson.Skolenheter.filter(mySchool);
             data.innerHTML = JSON.stringify(school, null, 4);
             });
     });
