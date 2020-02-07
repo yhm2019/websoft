@@ -1,0 +1,138 @@
+<SkolenhetResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="SkolenhetsregisterPublicAPI.Models">
+<Fotnot/>
+<Skolenheter>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>8362008628</PeOrgNr>
+<Skolenhetskod>10904931</Skolenhetskod>
+<Skolenhetsnamn>Valjevikens folkhögskola komvux</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>12299806</Skolenhetskod>
+<Skolenhetsnamn>Gymnasiesärskolan Anny Björk</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>18846309</Skolenhetskod>
+<Skolenhetsnamn>Falkviksskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>22379655</Skolenhetskod>
+<Skolenhetsnamn>Havelidens skola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>22544999</Skolenhetskod>
+<Skolenhetsnamn>Högtofta skola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>22853696</Skolenhetskod>
+<Skolenhetsnamn>Grundsärskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2220001222</PeOrgNr>
+<Skolenhetskod>23476801</Skolenhetskod>
+<Skolenhetsnamn>Furulundsskolan 1</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>24822447</Skolenhetskod>
+<Skolenhetsnamn>Mjällby skola H</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>39598101</Skolenhetskod>
+<Skolenhetsnamn>Hörviks skola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>40866866</Skolenhetskod>
+<Skolenhetsnamn>Modersmålsundervisningen</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>44868721</Skolenhetskod>
+<Skolenhetsnamn>Möllebacksskolan M</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>44972693</Skolenhetskod>
+<Skolenhetsnamn>Möllebacksskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>49771353</Skolenhetskod>
+<Skolenhetsnamn>Hjortakroksskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2220001222</PeOrgNr>
+<Skolenhetskod>55818007</Skolenhetskod>
+<Skolenhetsnamn>Furulundsskolans gymnasiesärskola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2220001222</PeOrgNr>
+<Skolenhetskod>56041144</Skolenhetskod>
+<Skolenhetsnamn>Furulundsskolan 3</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>61138510</Skolenhetskod>
+<Skolenhetsnamn>Stödenheten Skanslyckan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>80918950</Skolenhetskod>
+<Skolenhetsnamn>Norje skola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2220001222</PeOrgNr>
+<Skolenhetskod>86351879</Skolenhetskod>
+<Skolenhetsnamn>Furulundsskolan 2</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>89028306</Skolenhetskod>
+<Skolenhetsnamn>Central Insamlingsenhet Enskild verksamhet</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>93134050</Skolenhetskod>
+<Skolenhetsnamn>Mjällby skola LM</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>94149578</Skolenhetskod>
+<Skolenhetsnamn>Bokelundsskolan M</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1083</Kommunkod>
+<PeOrgNr>2120000852</PeOrgNr>
+<Skolenhetskod>94309839</Skolenhetskod>
+<Skolenhetsnamn>Bokelundsskolan H</Skolenhetsnamn>
+</Skolenhet>
+</Skolenheter>
+<Uttagsdatum>2020-02-07T16:35:03.6366333+01:00</Uttagsdatum>
+</SkolenhetResponse>

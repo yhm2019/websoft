@@ -22,6 +22,35 @@
             });
     });
     
+    var select = document.getElementById("list");
+    if(select.selectedIndex === "0") {
+        fetch(url)
+        .then((response) => {
+            return response.json();
+        })
+        .then((myJson) => {
+            var school = myJson.Skolenheter.filter(mySchool);
+            data.innerHTML = JSON.stringify(school, null, 4);
+            });
+    } else if(select.selectedIndex === "1") {
+        fetch("data/1082.json")
+        .then((response) => {
+            return response.json();
+        })
+        .then((myJson) => {
+            var school = myJson.Skolenheter.filter(mySchool);
+            data2.innerHTML = JSON.stringify(school, null, 4);
+            });
+    } else if(select.selectedIndex === "2"){
+        fetch("data/1083.json")
+        .then((response) => {
+            return response.json();
+        })
+        .then((myJson) => {
+            var school = myJson.Skolenheter.filter(mySchool);
+            data2.innerHTML = JSON.stringify(school, null, 4);
+            });
+    }
     console.log('Sandbox is ready!');
 })();
 
