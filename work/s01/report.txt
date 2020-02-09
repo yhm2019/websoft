@@ -1,11 +1,25 @@
-Q1: Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages?
+Q1:Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages?
+
 A1:I known Git, GitHub and GitHub Pages. But I didn't know Markdown.
 
+
 Q2: Have you ever created websites before?
-A2: Yes.
 
-Q3: Briefly explain your experience and knowledge of web application development.
-A3: Web application development creats application programs that use remote servers. Those applications are delivered to the user's computer, mobiles or else devices through the Internet. When users want to use web applications, they just need to access the Internet and use the browser to open the Web application rather than download it. 
+A2: Yes. But only create a simple website using CSS and HTML. I didn't learn Javascript until this course.
 
-Q4 : What is your TIL for this course section?
-A4 : I used a Git GUI tool which called SourceTree to commit codes or something else before the class. But know I can use cmd.exe to take those actions. It is much more convenience. In addition, I know what Markdown is. It is a  lightweight markup language with text formatting syntax.
+
+Q3: Briefly explain your experience.
+
+A3: I used HTML and CSS creating a simple website when I was a freshman.
+
+
+Q4: Briefly explain knowledge of web application development.
+
+Web application development creats application programs that use remote servers. And those applications are delivered to the user's computer, mobiles or else devices through the Internet.
+
+
+Q5:What is your TIL for this course section?
+
+A5 : I used a Git GUI tool which called SourceTree to commit codes or something else before the course. But now I can use cmd.exe to take those actions. It is much more convenience. In addition, I know what Markdown is. It is a lightweight markup language with text formatting syntax.
+
+
