@@ -7,15 +7,13 @@
     var data = document.getElementById("data")
     //url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
     url = "data/1081.json";
-
     btn.addEventListener("click",function(a){
     fetch(url)
         .then((response) => {
             return response.json();
         })
         .then((myJson) => {
-            
-            data.innerHTML = JSON.stringify(school, null, 4);
+            data.innerHTML = JSON.stringify(myJson, null, 4);
             });
     });
     
