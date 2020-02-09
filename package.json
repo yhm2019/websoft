@@ -1,0 +1,26 @@
+{
+  "name": "websoft",
+  "version": "1.0.0",
+  "description": "[![Join the chat at https://gitter.im/Webbprogrammering/websoft](https://badges.gitter.im/Webbprogrammering/websoft.svg)](https://gitter.im/Webbprogrammering/websoft?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "apache": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhm2019/websoft.git"
+  },
+  "author": "Hanmeng Yuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhm2019/websoft/issues"
+  },
+  "homepage": "https://github.com/yhm2019/websoft#readme"
+}
