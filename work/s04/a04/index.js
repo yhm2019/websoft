@@ -1,49 +1,47 @@
+/**
+ * A sample Express server with static resources.
+ */
 "use strict";
 
-// Enable server to run on port selected by the user selected
-// environment variable DBWEBB_PORT
-const port = process.env.DBWEBB_PORT || 1337;
+const port    = process.env.DBWEBB_PORT || 1337;
 const path    = require("path");
-// Set upp Express server
 const express = require("express");
-const app = express();
+const app     = express();
+const routeIndex = require("./route/index.js");
+const middleware = require("./middleware/index.js");
 
+app.use(middleware.logIncomingToConsole);
 app.use(express.static(path.join(__dirname, "report")));
-app.use((req, res, next) => {
-    console.info(`Got request on ${req.path} (${req.method}).`);
-    next();
-});
-
-// Add a route for the path /
-app.get("/report/", (req, res) => {
-    res.send("Hello World");
-});
-
-// Add a route for the path /about
-app.get("/about", (req, res) => {
-    res.send("About something");
-});
+app.use("/", routeIndex);
+app.listen(port, logStartUpDetailsToConsole);
 
 
 
-app.get("/lotto", (req, res) => {
-   let lotto = [];
-    
-    for(let i = 0;i < 7;i ++) {
-        lotto[i] = Math.floor(Math.random() * 35 + 1);
-}
-    res.send(lotto);
-    
-});
-// Start up server and begin listen to requests
-app.listen(port, () => {
-    console.info(`Server is listening on port ${port}.`);
+/**
+ * Log app details to console when starting up.
+ *
+ * @return {void}
+ */
+function logStartUpDetailsToConsole() {
+    let routes = [];
 
-    // Show which routes are supported
-    console.info("Available routes are:");
-    app._router.stack.forEach((r) => {
-        if (r.route && r.route.path) {
-            console.info(r.route.path);
+    // Find what routes are supported
+    app._router.stack.forEach((middleware) => {
+        if (middleware.route) {
+            // Routes registered directly on the app
+            routes.push(middleware.route);
+        } else if (middleware.name === "router") {
+            // Routes added as router middleware
+            middleware.handle.stack.forEach((handler) => {
+                let route;
+
+                route = handler.route;
+                route && routes.push(route);
+            });
         }
     });
-});
+
+    console.info(`Server is listening on port ${port}.`);
+    console.info("Available routes are:");
+    console.info(routes);
+}

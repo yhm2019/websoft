@@ -44,6 +44,7 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 footer,
+header,
 .report, 
 .nav {
 	text-align: center;
@@ -173,4 +174,14 @@ footer,
   .cover-container {
     width: 700px;
   }
+}
+.rabbit{
+  width: 128px;
+  height: 125px;
+  border: 1px solid black;
+  background-image:url("../img/rabbit.jpg");
+    background-size: 64px;
+    position: absolute;
+    top:10px;
+    left:10px;
 }
