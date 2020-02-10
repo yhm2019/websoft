@@ -24,7 +24,7 @@
             fetch("data/1081.json")
             . then((response) => {
             return response.json();
-        })
+            })
         .then((myJson) => {
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
@@ -45,6 +45,8 @@
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
     }
+});
+
     
     console.log('Sandbox is ready!');
 })();
