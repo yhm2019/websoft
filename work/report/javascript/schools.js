@@ -23,7 +23,7 @@
     url2 = "data/1082.json";
     url3 = "data/1083.json";
         if (text === "1081") {
-            fetch("url1")
+            fetch(url1)
             . then((response) => {
             return response.json();
             })
@@ -31,7 +31,7 @@
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
         } else if (text === "1082") {
-        fetch("url2")
+        fetch(url2)
         .then((response) => {
             return response.json();
         })
@@ -39,7 +39,7 @@
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
          } else if (text === "1083") {
-            fetch("url3")
+            fetch(url3)
         .then((response) => {
             return response.json();
         })
