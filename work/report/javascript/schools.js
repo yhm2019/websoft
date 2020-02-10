@@ -21,7 +21,7 @@
     var data2 = document.getElementById("data2");
     var index = select.selectedIndex;
     var text = select.options[index].text;
-        if (select === "1081") {
+        if (text === "1081") {
             fetch("data/1081.json")
             . then((response) => {
             return response.json();
@@ -29,7 +29,7 @@
         .then((myJson) => {
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
-        } else if (select === "1082") {
+        } else if (text === "1082") {
         fetch("data/1082.json")
         .then((response) => {
             return response.json();
@@ -37,7 +37,7 @@
         .then((myJson) => {
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
-         } else if (select === "1083") {
+         } else if (text === "1083") {
             fetch("data/1083.json")
         .then((response) => {
             return response.json();
