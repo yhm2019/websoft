@@ -19,7 +19,7 @@
     
     var select = document.getElementById("list");
     var data2 = document.getElementById("data2");
-    select.change(function(){
+    select.addEventListener("change",function(){
         if (select === "1081") {
             fetch("data/1081.json")
             . then((response) => {
