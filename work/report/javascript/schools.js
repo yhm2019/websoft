@@ -18,15 +18,17 @@
     });
     
     var select = document.getElementById("list");
-    if(select.selectedIndex === "0") {
-        fetch(url)
-        .then((response) => {
+    var data2 = document.getElementById("data2");
+    select.change(function(){
+        if (select === "1081") {
+            fetch("data/1081.json")
+            . then((response) => {
             return response.json();
         })
         .then((myJson) => {
-            data.innerHTML = JSON.stringify(myJson, null, 4);
+            data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
-    } else if(select.selectedIndex === "1") {
+        } else if (select === "1082") {
         fetch("data/1082.json")
         .then((response) => {
             return response.json();
@@ -34,8 +36,8 @@
         .then((myJson) => {
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
-    } else if(select.selectedIndex === "2"){
-        fetch("data/1083.json")
+         } else if (select === "1083") {
+            fetch("data/1083.json")
         .then((response) => {
             return response.json();
         })
@@ -43,6 +45,7 @@
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
     }
+    
     console.log('Sandbox is ready!');
 })();
 
