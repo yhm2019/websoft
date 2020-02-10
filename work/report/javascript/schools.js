@@ -8,7 +8,7 @@
     //url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
     url1 = "data/1081.json";
     btn.addEventListener("click",function(a){
-    fetch(url)
+    fetch(url1)
         .then((response) => {
             return response.json();
         })
