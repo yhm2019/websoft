@@ -2,7 +2,7 @@
 * @Author: Hanmeng Yuan
 * @Date:   2020-02-04 16:21:59
 * @Last Modified by:   Hanmeng Yuan
-* @Last Modified time: 2020-02-04 17:34:36
+* @Last Modified time: 2020-02-10 13:21:36
 */
 (function () {
     'use strict';
@@ -58,5 +58,8 @@
     });
 
 
+    flagTarget.addEventListener("click", function() {
+        flagTarget.style.visibility("hidden");
+    })
     console.log('Sandbox MEGA is ready!');
 })();
