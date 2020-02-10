@@ -19,7 +19,8 @@
     
     var select = document.getElementById("list");
     var data2 = document.getElementById("data2");
-    select.addEventListener("change",function(){
+    var index = select.selectedIndex;
+    var text = select.options[index].text;
         if (select === "1081") {
             fetch("data/1081.json")
             . then((response) => {
@@ -44,8 +45,7 @@
         .then((myJson) => {
             data2.innerHTML = JSON.stringify(myJson, null, 4);
             });
-    }
-});
+    };
 
     
     console.log('Sandbox is ready!');
