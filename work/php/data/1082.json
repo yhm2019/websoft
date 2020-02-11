@@ -1,0 +1,198 @@
+<SkolenhetResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="SkolenhetsregisterPublicAPI.Models">
+<Fotnot/>
+<Skolenheter>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>11703307</Skolenhetskod>
+<Skolenhetsnamn>Prästslättsskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>14310650</Skolenhetskod>
+<Skolenhetsnamn>Klockebacksskolan F-3</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>5567497051</PeOrgNr>
+<Skolenhetskod>16249641</Skolenhetskod>
+<Skolenhetsnamn>Thoren Framtid i Karlshamn</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>16767324</Skolenhetskod>
+<Skolenhetsnamn>Stenbackaskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>18193326</Skolenhetskod>
+<Skolenhetsnamn>Vägga gymnasieskola 1a</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>19741742</Skolenhetskod>
+<Skolenhetsnamn>Vägga gymnasieskola 3</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>21244566</Skolenhetskod>
+<Skolenhetsnamn>Korpadalsskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>21673083</Skolenhetskod>
+<Skolenhetsnamn>Vägga gymnasieskola 1b</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>7164056082</PeOrgNr>
+<Skolenhetskod>22909101</Skolenhetskod>
+<Skolenhetsnamn>Waldorfskolan i Karlshamn</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>7696004071</PeOrgNr>
+<Skolenhetskod>23032196</Skolenhetskod>
+<Skolenhetsnamn>Karlshamns Montessoriskola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>29032715</Skolenhetskod>
+<Skolenhetsnamn>Vägga gymnasieskola 4</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>36499336</Skolenhetskod>
+<Skolenhetsnamn>Vägga gymnasiesärskola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>37589444</Skolenhetskod>
+<Skolenhetsnamn>Mörrums skolor</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>5569306979</PeOrgNr>
+<Skolenhetskod>42573391</Skolenhetskod>
+<Skolenhetsnamn>Fria Läroverken i Karlshamn</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>43859477</Skolenhetskod>
+<Skolenhetsnamn>Österslättsskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>8024419700</PeOrgNr>
+<Skolenhetskod>45295878</Skolenhetskod>
+<Skolenhetsnamn>Åryds Friskola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>47955009</Skolenhetskod>
+<Skolenhetsnamn>Möllegårdens skola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>52745678</Skolenhetskod>
+<Skolenhetsnamn>Bullerbyn grundsärskola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>63983100</Skolenhetskod>
+<Skolenhetsnamn>Vägga gymnasieskola 5</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>64496478</Skolenhetskod>
+<Skolenhetsnamn>Klockebacksskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>64521958</Skolenhetskod>
+<Skolenhetsnamn>Grundsärskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>64574972</Skolenhetskod>
+<Skolenhetsnamn>Vägga gymnasieskola 2</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>65356210</Skolenhetskod>
+<Skolenhetsnamn>Vägga Vuxenutbildning, SFI</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>72166089</Skolenhetskod>
+<Skolenhetsnamn>Kyrkskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>75372005</Skolenhetskod>
+<Skolenhetsnamn>Hällaryds skola</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>83020943</Skolenhetskod>
+<Skolenhetsnamn>Bodestorpsskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>83380643</Skolenhetskod>
+<Skolenhetsnamn>Sternöskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>89878714</Skolenhetskod>
+<Skolenhetsnamn>Norrevångskolan</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>89940616</Skolenhetskod>
+<Skolenhetsnamn>Central Insamlingsenhet Kommunal verksamhet</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>90147683</Skolenhetskod>
+<Skolenhetsnamn>Vuxenutbildning</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>90180857</Skolenhetskod>
+<Skolenhetsnamn>Central Insamlingsenhet</Skolenhetsnamn>
+</Skolenhet>
+<Skolenhet>
+<Kommunkod>1082</Kommunkod>
+<PeOrgNr>2120000845</PeOrgNr>
+<Skolenhetskod>90385739</Skolenhetskod>
+<Skolenhetsnamn>Särvux</Skolenhetsnamn>
+</Skolenhet>
+</Skolenheter>
+<Uttagsdatum>2020-02-07T16:33:43.2996806+01:00</Uttagsdatum>
+</SkolenhetResponse>

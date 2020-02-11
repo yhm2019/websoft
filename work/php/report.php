@@ -8,19 +8,7 @@
 </head>
 
 <body>
-
-
-
-<header>
-    <nav>
-        <a href="me.html">Me</a> |
-        <a href="report.html">Report</a> | 
-        <a href="about.html">About</a> |
-		<a href="schools.html">Schools</a> |
-         <a href="flags.html">Flags</a> 
-    </nav>
-</header>
-
+<?php require __DIR__ . "/view/header.php" ?>
 <div id="rabbit" class="rabbit"></div>
 
 <article>
@@ -98,45 +86,8 @@
     <p>A5: I learned about Node, Node Express and EJS. I can also organize codes in files and modules.</p>
 </section>
 
-<section>
-<h2>S05</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S06</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S07</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S08</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S09</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S10</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<footer >
-    <hr>
-    <p>&copy Hanmeng Yuan  02.02.2020</p>
-</footer>
-
 </article>
 
-
-
-<script type="text/javascript" src="javascript/rabbit.js"></script>
+<?php require __DIR__ . "/view/footer.php" ?>
 </body>
 </html>
