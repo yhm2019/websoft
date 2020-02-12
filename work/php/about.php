@@ -1,3 +1,4 @@
+<?php require __DIR__ . "/view/header.php" ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
 </head>
 
 <body>
-<?php require __DIR__ . "/view/header.php" ?>
+
 <div id="rabbit" class="rabbit"></div>
 
 
@@ -22,14 +23,12 @@
 
 <p>This is the link to the <a href="https://github.com/yhm2019/websoft">foked course repo</a>.</p>
 
-<p>You can see a short introduction to <a href="me.html">me</a> on this site.</p>
+<p>You can see a short introduction to <a href="me.php">me</a> on this site.</p>
 
-<p>Also, you can look through the <a href="report.html">report</a> for every section.</p>
+<p>Also, you can look through the <a href="report.php">report</a> for every section.</p>
 
 
 </article>
-
-<?php require __DIR__ . "/view/footer.php" ?>
-
 </body>
 </html>
+<?php  require __DIR__ ."/view/footer.php" ?>

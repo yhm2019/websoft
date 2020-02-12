@@ -1,3 +1,4 @@
+<?php require __DIR__ . "/view/header.php" ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,7 +14,6 @@
 <!--
 Comments are written as HTML style.
 -->
-<?php require __DIR__ . "/view/header.php" ?>
 
 
 <div id="rabbit" class="rabbit"></div>
@@ -34,6 +34,7 @@ Comments are written as HTML style.
     
 </article>
 
-<?php require __DIR__ . "/view/footer.php" ?>
+
 </body>
 </html>
+<?php require __DIR__ . "/view/footer.php" ?>

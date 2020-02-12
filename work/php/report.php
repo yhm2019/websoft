@@ -1,3 +1,4 @@
+<?php require __DIR__ . "/view/header.php" ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
 </head>
 
 <body>
-<?php require __DIR__ . "/view/header.php" ?>
+
 <div id="rabbit" class="rabbit"></div>
 
 <article>
@@ -88,6 +89,7 @@
 
 </article>
 
-<?php require __DIR__ . "/view/footer.php" ?>
+
 </body>
 </html>
+<?php require __DIR__ . "/view/footer.php" ?>
