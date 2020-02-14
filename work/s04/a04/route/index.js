@@ -26,4 +26,8 @@ router.get("/lotto", (req, res) => {
     res.send("Welcome to lotto. The numbers are : " + lotto);
 })
 
+router.get("/lotto-json",(req, res) => {
+    res.send("Json response!");
+})
+
 module.exports = router;
