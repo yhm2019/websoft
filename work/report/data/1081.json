@@ -1,4 +1,4 @@
-{"Skolenheter":[
+[
     {"Skolenhetskod":"11842600","Skolenhetsnamn":"Hallabroskolan","Kommunkod":"1081","PeOrgNr":"2120000837"},
     {"Skolenhetskod":"11927362","Skolenhetsnamn":"Saxemaraskolan","Kommunkod":"1081","PeOrgNr":"2120000837"},
     {"Skolenhetskod":"13883567","Skolenhetsnamn":"Gymnasieskolan Knut Hahn 3","Kommunkod":"1081","PeOrgNr":"2120000837"},
@@ -30,4 +30,3 @@
     {"Skolenhetskod":"89041310","Skolenhetsnamn":"Träningsskolan","Kommunkod":"1081","PeOrgNr":"2120000837"},
     {"Skolenhetskod":"89240233","Skolenhetsnamn":"Listerbyskolan","Kommunkod":"1081","PeOrgNr":"2120000837"}
 ]
-}
