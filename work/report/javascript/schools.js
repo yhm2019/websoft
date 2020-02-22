@@ -5,7 +5,7 @@
     let url1,url2,url3;
     var btn = document.getElementById("fetch");
     var data = document.getElementById("data");
-    var table1 = document.getElementById("table1");
+    var table = document.getElementById("table");
     // var message;
     // var json_table;
     // var json_tr;
@@ -21,7 +21,7 @@
         })
         .then((myJson) => {
             for(var i = 0; i < myJson.length; i ++) {
-                var row = table1.insertRow(table.rows.length);
+                var row = table.insertRow(table.rows.length);
                 var c1 = row.insertCell(0);
                 c1.innerHTML = myJson[i].Skolenhetskod;
                 var c2 = row.insertCell(1);
