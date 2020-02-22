@@ -25,7 +25,7 @@
                 var c1 = row.insertCell(0);
                 c1.innerHTML = myJson[i].Skolenhetskod;
                 var c2 = row.insertCell(1);
-                c1.innerHTML = myJson[i].Skolenhetnamn;
+                c1.innerHTML = myJson[i].Skolenhetsnamn;
                 var c3 = row.insertCell(2);
                 c1.innerHTML = myJson[i].Kommunkod;
                 var c4 = row.insertCell(3);
