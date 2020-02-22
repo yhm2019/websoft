@@ -28,6 +28,8 @@
                 c1.innerHTML = myJson[i].Skolenhetnamn;
                 var c3 = row.insertCell(2);
                 c1.innerHTML = myJson[i].Kommunkod;
+                var c4 = row.insertCell(3);
+                c1.innerHTML = myJson[i].PeOrgNr;
             }
             // data.innerHTML = JSON.stringify(myJson, null, 4);
             //tansfer string to js object
