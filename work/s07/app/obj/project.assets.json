@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\websoft\\work\\s07\\console\\app\\app.csproj",
+      "projectUniqueName": "F:\\websoft\\work\\s07\\app\\app.csproj",
       "projectName": "app",
-      "projectPath": "F:\\websoft\\work\\s07\\console\\app\\app.csproj",
+      "projectPath": "F:\\websoft\\work\\s07\\app\\app.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "F:\\websoft\\work\\s07\\console\\app\\obj\\",
+      "outputPath": "F:\\websoft\\work\\s07\\app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

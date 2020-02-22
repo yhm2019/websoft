@@ -20,7 +20,7 @@
             return response.json();
         })
         .then((myJson) => {
-            for(var i = 0; i < myjson.length; i ++) {
+            for(var i = 0; i < myJson.length; i ++) {
                 var row = table1.insertRow(table.rows.length);
                 var c1 = row.insertCell(0);
                 c1.innerHTML = myJson[i].Skolenhetskod;

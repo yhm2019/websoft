@@ -1,0 +1,11 @@
+F:\websoft\work\s07\app\bin\Debug\netcoreapp3.1\app.exe
+F:\websoft\work\s07\app\bin\Debug\netcoreapp3.1\app.deps.json
+F:\websoft\work\s07\app\bin\Debug\netcoreapp3.1\app.runtimeconfig.json
+F:\websoft\work\s07\app\bin\Debug\netcoreapp3.1\app.runtimeconfig.dev.json
+F:\websoft\work\s07\app\bin\Debug\netcoreapp3.1\app.dll
+F:\websoft\work\s07\app\bin\Debug\netcoreapp3.1\app.pdb
+F:\websoft\work\s07\app\obj\Debug\netcoreapp3.1\app.csprojAssemblyReference.cache
+F:\websoft\work\s07\app\obj\Debug\netcoreapp3.1\app.AssemblyInfoInputs.cache
+F:\websoft\work\s07\app\obj\Debug\netcoreapp3.1\app.AssemblyInfo.cs
+F:\websoft\work\s07\app\obj\Debug\netcoreapp3.1\app.dll
+F:\websoft\work\s07\app\obj\Debug\netcoreapp3.1\app.pdb
