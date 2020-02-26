@@ -263,3 +263,9 @@ body {
     width: 800px;
     border-radius: 30px;
 }
+.table {
+  width: 100%;
+}
+.table .th {
+  height: 50px;
+}
