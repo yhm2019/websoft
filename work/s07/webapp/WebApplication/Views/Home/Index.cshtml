@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WebApplication.Models.Account>
+@{
+    ViewData["Title"] = "Home Page";
+    var accounts = new ReadAccount().ReadAccounts();
+}
+
+<h2>Account</h2>
+<table class=" table">
+    <tr>
+        <th>Number</th>
+        <th>Balance</th>
+        <th>Label</th>
+        <th>Owner</th>
+    </tr>
+   
+        @foreach (var account in accounts)
+        {
+            <tr>
+                <td>@account.Number</td>
+                <td>@account.Balance</td>
+                <td>@account.Label</td>
+                <td>@account.Owner</td>
+            </tr>
+        }
+    
+    </table>
+
