@@ -16,7 +16,7 @@ router.get("/about", (req, res) => {
     res.send("About something");
 });
 
-
+// Add a route for the path /lotto
 router.get("/lotto", (req, res) => {
     let lotto = [];
     

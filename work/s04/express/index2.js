@@ -12,7 +12,7 @@ const middleware = require("./middleware/index.js");
 app.use(middleware.logIncomingToConsole);
 app.use("/", routeIndex);
 app.listen(port, logStartUpDetailsToConsole);
-
+// excluding function logStartUpDetailsToConsole by intention
 
 
 /**

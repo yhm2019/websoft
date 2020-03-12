@@ -2,11 +2,15 @@
  * A sample Express server with static resources.
  */
 "use strict";
-
+//Enable server to run on port selected by the user selected
+//environment variable DBWBB_PORT
 const port    = process.env.DBWEBB_PORT || 1337;
+
 const path    = require("path");
+//set up Express server
 const express = require("express");
 const app     = express();
+//mount the entire router into the server, with all its routes.
 const routeIndex = require("./route/index.js");
 const middleware = require("./middleware/index.js");
 

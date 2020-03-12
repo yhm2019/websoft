@@ -21,7 +21,10 @@
         })
         .then((myJson) => {
             for(var i = 0; i < myJson.length; i ++) {
+                //Returns a TableRow representing the newly inserted row.
+                //New row will be appended to the end of the table.
                 var row = table.insertRow(table.rows.length);
+                //Returns a TableCell object representing the newly created and inserted <td> element
                 var c1 = row.insertCell(0);
                 c1.innerHTML = myJson[i].Skolenhetskod;
                 var c2 = row.insertCell(1);
@@ -31,58 +34,9 @@
                 var c4 = row.insertCell(3);
                 c4.innerHTML = myJson[i].PeOrgNr;
             }
-            // data.innerHTML = JSON.stringify(myJson, null, 4);
-            //tansfer string to js object
-            // message = JSON.parse(myJson.responseText);
-            // //create table element
-            // json_table = document.createElement("table");
-            // json_tr = document.createdElement("tr");
-            // //read numbers of keys and the value of each key
-            // for(key in message) {
-            //     json_th = document.createdElement("th");
-            //     //get key name
-            //     th_txt = document.createTextNode(key);
-            //     json_th.appendChild(th_txt);
-            //     json_tr.appendChild(json_th);
-            //     json_table.appendChild(json_tr);
-            //     //change form style
-            //     json_th.style.border = "1px solid black";
     
             });
     });
-    
-    // var select = document.getElementById("list");
-    // var data2 = document.getElementById("data2");
-    // var text = select.options[select.selectedIndex].text;
-    // url2 = "data/1082.json";
-    // url3 = "data/1083.json";
-    //     if (text === "1081") {
-    //         fetch(url1)
-    //         . then((response) => {
-    //         return response.json();
-    //         })
-    //     .then((myJson) => {
-    //         data2.innerHTML = JSON.stringify(myJson, null, 4);
-    //         });
-    //     } else if (text === "1082") {
-    //     fetch(url2)
-    //     .then((response) => {
-    //         return response.json();
-    //     })
-    //     .then((myJson) => {
-    //         data2.innerHTML = JSON.stringify(myJson, null, 4);
-    //         });
-    //      } else if (text === "1083") {
-    //         fetch(url3)
-    //     .then((response) => {
-    //         return response.json();
-    //     })
-    //     .then((myJson) => {
-    //         data2.innerHTML = JSON.stringify(myJson, null, 4);
-    //         });
-    // };
-
-    
     console.log('Sandbox is ready!');
 })();
 

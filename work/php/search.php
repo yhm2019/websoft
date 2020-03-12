@@ -47,8 +47,17 @@ EOD;
 </form>
 
 <?php if ($search) : ?>
-    <table>
+    <table>/**
+     * undocumented class
+     *
+     * @package default
+     * @author 
+     **/
+    class 
+    {
+    } // END class 
         <tr>
+            <th>Id</th>
             <th>Label</th>
             <th>Type</th>
         </tr>

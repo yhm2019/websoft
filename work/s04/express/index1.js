@@ -1,11 +1,19 @@
 "use strict";
 
+// Enable server to run on port selected by the user selected
+// environment variable DBWEBB_PORT
 const port = process.env.DBWEBB_PORT || 1337;
+// Set upp Express server
 const express = require("express");
 const app = express();
 const path = require("path");
 
+
 app.use(express.static(path.join(__dirname,"public")));
+// This is middleware called for all routes.
+// Middleware takes three parameters.
+// Its callback ends with a call to next() to proceed to the next
+// middleware, or the actual route.
 app.use((req, res, next) => {
     console.info(`Got request on ${req.path} (${req.method}).`);
     next();

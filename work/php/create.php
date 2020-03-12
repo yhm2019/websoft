@@ -54,6 +54,7 @@ if ($create) {
 <?php if ($res ?? null) : ?>
     <table>
         <tr>
+            <th>Id</th>
             <th>Label</th>
             <th>Type</th>
         </tr>

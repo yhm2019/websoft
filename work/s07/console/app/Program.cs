@@ -3,6 +3,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Collections.Generic;
+using System.Data;
 
 namespace app
 {
@@ -20,6 +21,7 @@ namespace app
                 return JsonSerializer.Serialize<Account>(this);
             }
         }
+
         static IEnumerable<Account> ReadAccounts()
         {
             String file = "../../../data/account.json";
@@ -44,6 +46,8 @@ namespace app
         public static void menu()
         {
             int choice;
+            Boolean exit;
+            
             do
             {
                 Console.WriteLine("***************************************");
@@ -52,28 +56,139 @@ namespace app
                 Console.WriteLine("        3.Exit                         ");
                 Console.WriteLine("***************************************");
                 choice = int.Parse(Console.ReadLine());
+                exit = false;
+                var accounts = ReadAccounts();
                 switch (choice)
                 {
                     case 1:
-                        var accounts = ReadAccounts();
+                        
+                        Console.WriteLine("+------------+------------+------------+------------+");
+                        Console.WriteLine("|   Number   |  Balance   |    Label   |    Owner   |");
                         foreach (var account in accounts)
                         {
-                            Console.WriteLine(account);
+                            string numberStr = "";
+                            string balanceStr = "";
+                            string labelStr = "";
+                            string ownerStr = "";
+                            //Number
+                            for(int i = 0; i < ((11 - account.Number.ToString().Length)/2); i ++)
+                                {
+                                numberStr += " ";
+                            }
+                            numberStr += account.Number.ToString();
+                            for(int i = (11 - numberStr.Length); i >= 0 ; i --)
+                                {
+                                numberStr += " ";
+                            }
+                            //Balance
+                            for(int i = 0; i < ((11 - account.Balance.ToString().Length)/2); i ++)
+                                {
+                                balanceStr += " ";
+                            }
+                            balanceStr += account.Balance.ToString();
+                            for(int i = (11 - balanceStr.Length); i >= 0 ; i --)
+                                {
+                                balanceStr += " ";
+                            }
+                            //Label
+                            for(int i = 0; i < ((11 - account.Label.ToString().Length)/2); i ++)
+                                {
+                                labelStr += " ";
+                            }
+                            labelStr += account.Label.ToString();
+                            for(int i =  (11 - labelStr.Length); i >= 0; i --)
+                                {
+                                labelStr += " ";
+                            }
+                            //Owner
+                            for(int i = 0; i < ((11 - account.Owner.ToString().Length)/2); i ++)
+                                {
+                                ownerStr += " ";
+                            }
+                            ownerStr += account.Owner.ToString();
+                            for(int i = (11 - ownerStr.Length); i >= 0; i --)
+                                {
+                                ownerStr += " ";
+                            }
+                           Console.Write("|" + numberStr + "|" + balanceStr + "|" + labelStr + "|" + ownerStr + "|" + "\n");
+                           Console.WriteLine("+------------+------------+------------+------------+");
+                           // Console.WriteLine(account);
                         }
                         break;
                     case 2:
+                        int count = 0;
+                        Console.WriteLine("Please enter the ID:");
                         var num = int.Parse(Console.ReadLine());
-                        accounts = ReadAccounts();
+                        Console.WriteLine("+------------+------------+------------+------------+");
+                        Console.WriteLine("|   Number   |  Balance   |    Label   |    Owner   |");
                         foreach (var account in accounts)
                         {
                             if (account.Number == num)
-                                Console.WriteLine(account);
+                            {
+                                string numberStr = "";
+                                string balanceStr = "";
+                                string labelStr = "";
+                                string ownerStr = "";
+                                //Number
+                                for(int i = 0; i < ((11 - account.Number.ToString().Length)/2); i ++)
+                                {
+                                    numberStr += " ";
+                                }
+                                numberStr += account.Number.ToString();
+                                for(int i = (11 - numberStr.Length); i >= 0 ; i --)
+                                {
+                                    numberStr += " ";
+                                }
+                                //Balance
+                                for(int i = 0; i < ((11 - account.Balance.ToString().Length)/2); i ++)
+                                {
+                                    balanceStr += " ";
+                                }
+                                balanceStr += account.Balance.ToString();
+                                for(int i = (11 - balanceStr.Length); i >= 0 ; i --)
+                                {
+                                    balanceStr += " ";
+                                }
+                                //Label
+                                for(int i = 0; i < ((11 - account.Label.ToString().Length)/2); i ++)
+                                {
+                                    labelStr += " ";
+                                }
+                                labelStr += account.Label.ToString();
+                                for(int i =  (11 - labelStr.Length); i >= 0; i --)
+                                {
+                                    labelStr += " ";
+                                }
+                                //Owner
+                                for(int i = 0; i < ((11 - account.Owner.ToString().Length)/2); i ++)
+                                {
+                                    ownerStr += " ";
+                                }
+                                ownerStr += account.Owner.ToString();
+                                for(int i = (11 - ownerStr.Length); i >= 0; i --)
+                                {
+                                    ownerStr += " ";
+                                }
+                                Console.Write("|" + numberStr + "|" + balanceStr + "|" + labelStr + "|" + ownerStr + "|" + "\n");
+                                Console.WriteLine("+------------+------------+------------+------------+");
+                            }
+                            else
+                                count ++;
                         }
+                        if(count >= 4)
+                            Console.WriteLine("Id number does not exit!");
+                        break;
+                    case 3:
+                        exit = true;
+                        break;
+                    default:
+                        Console.WriteLine("Wrong number!\n");
                         break;
                 }
 
-            } while (choice != 3);
+            } while (!exit);
         }
+      
         static void Main(string[] args)
         {
             menu();
