@@ -4,7 +4,7 @@
  */
 require "config.php";
 require "src/function.php";
-require "view/header2.php";
+require "view/header.php";
 // Connect to the database
 $db = connectDatabase($dsn);
 

@@ -4,7 +4,7 @@
  */
 require "config.php";
 require "src/functions.php";
-require "view/header2.php";
+require "view/header.php";
 
 // Get incoming values
 $item  = $_GET["item"] ?? null;
